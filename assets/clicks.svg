@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="192" viewBox="0 0 1080 192" role="img" aria-labelledby="title desc">
+  <title id="title">I like clean interfaces, especially when a small change turns five clicks into one.</title>
+  <desc id="desc">Five separate paths meet at a single blue cursor key.</desc>
+  <style>
+    .paper { fill: #eef5ff; stroke: #c5d9f5; }
+    .ink { fill: #172f50; }
+    .em { fill: #1659b7; }
+    .track { stroke: #6897d4; }
+    .point { fill: #f9fcff; stroke: #6390cb; }
+    .dot { fill: #437bbd; }
+    .halo { fill: #74a9f4; }
+    @media (prefers-color-scheme: dark) {
+      .paper { fill: #111f33; stroke: #263e5b; }
+      .ink { fill: #dbe9fb; }
+      .em { fill: #8cbeff; }
+      .track { stroke: #598ccf; }
+      .point { fill: #192b44; stroke: #6e9ddb; }
+      .dot { fill: #9bc4ff; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="key" x2=".75" y2="1">
+      <stop stop-color="#458df5"/><stop offset="1" stop-color="#1856ce"/>
+    </linearGradient>
+  </defs>
+  <rect class="paper" x="1" y="1" width="1078" height="190" rx="20" stroke-width="2"/>
+  <g class="ink" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="39" y="62" font-size="32" font-weight="650">I like clean interfaces,</text>
+    <text x="39" y="102" font-size="27">especially when a small change</text>
+    <text x="39" y="138" font-size="27">turns <tspan class="em" font-weight="650">five clicks into one.</tspan></text>
+  </g>
+  <g transform="translate(603 96) scale(1.12)" stroke-linecap="round" stroke-linejoin="round">
+    <g class="track" fill="none" stroke-width="1.65">
+      <path d="M23 -44h38c41 0 50 44 107 44h86"/>
+      <path d="M50 -22h34c37 0 46 22 84 22"/>
+      <path d="M10 0h158"/>
+      <path d="M50 22h34c37 0 46 -22 84 -22"/>
+      <path d="M23 44h38c41 0 50 -44 107 -44"/>
+    </g>
+    <g class="point" stroke-width="1.5">
+      <circle cx="16" cy="-44" r="7"/><circle cx="43" cy="-22" r="7"/><circle cx="3" cy="0" r="7"/>
+      <circle cx="43" cy="22" r="7"/><circle cx="16" cy="44" r="7"/>
+    </g>
+    <g class="dot">
+      <circle cx="16" cy="-44" r="2"/><circle cx="43" cy="-22" r="2"/><circle cx="3" cy="0" r="2"/>
+      <circle cx="43" cy="22" r="2"/><circle cx="16" cy="44" r="2"/>
+    </g>
+    <rect x="249" y="-40" width="80" height="80" rx="24" class="halo" opacity=".18"/>
+    <rect x="255" y="-34" width="68" height="68" rx="18" fill="url(#key)" stroke="#78afff" stroke-width="1.5"/>
+    <path d="M278 -15l3 28 7-8 7 13 5-3-7-13 11-1z" fill="#fff" stroke="#1d59b4" stroke-width="1"/>
+    <path d="M277 -21v-4m-6 7-4-3m15 2 3-3" fill="none" stroke="#e4f4ff" stroke-width="2"/>
+  </g>
+</svg>
