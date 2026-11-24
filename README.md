@@ -1,4 +1,4 @@
-<img src="assets/profile.svg" width="1080" alt="MO3 · Software engineer. I make softwares.">
+<img src="assets/signature.svg" width="1080" alt="MO3 · Software engineer. I make softwares.">
 
 <picture>
   <source media="(max-width: 720px)" srcset="assets/clicks-small.svg">
