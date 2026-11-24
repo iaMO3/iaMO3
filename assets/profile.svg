@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="276" viewBox="0 0 1080 276" role="img" aria-labelledby="title">
+  <title id="title">MO3 · Software engineer. I make software.</title>
+  <defs>
+    <linearGradient id="paper" x2="1" y2=".28">
+      <stop stop-color="#0a142a"/><stop offset=".57" stop-color="#0b1d40"/><stop offset="1" stop-color="#112e69"/>
+    </linearGradient>
+    <radialGradient id="blue">
+      <stop stop-color="#2461dc" stop-opacity=".44"/><stop offset="1" stop-color="#2461dc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silk" gradientUnits="userSpaceOnUse" x1="625" y1="0" x2="1128" y2="115">
+      <stop stop-color="#325ae4" stop-opacity=".22"/><stop offset=".25" stop-color="#567ef8"/>
+      <stop offset=".5" stop-color="#a9dfff"/><stop offset=".67" stop-color="#568fff"/>
+      <stop offset="1" stop-color="#3167ff" stop-opacity=".52"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1080" height="276" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1080" height="276" fill="url(#paper)"/>
+    <ellipse cx="905" cy="150" rx="323" ry="231" fill="url(#blue)"/>
+    <g fill="none" stroke="url(#silk)" stroke-width="1.4">
+      <path d="M600 310 C698 301 777 51 883 48 S1014 151 1107 -28"/>
+      <path d="M602 310 C700 300 775 53 882 52 S1013 148 1107 -27"/>
+      <path d="M604 310 C703 299 772 55 881 55 S1013 145 1107 -26"/>
+      <path d="M605 310 C705 298 770 57 880 59 S1012 141 1107 -25"/>
+      <path d="M607 310 C708 297 767 59 879 63 S1012 138 1107 -24"/>
+      <path d="M609 310 C710 296 765 61 878 66 S1011 135 1107 -23"/>
+      <path d="M611 310 C713 294 763 63 877 70 S1010 132 1107 -22"/>
+      <path d="M612 310 C715 293 760 65 876 73 S1010 129 1107 -21"/>
+      <path d="M614 310 C718 292 758 67 875 77 S1009 125 1107 -20"/>
+      <path d="M616 310 C720 291 755 69 874 81 S1009 122 1107 -19"/>
+      <path d="M618 310 C723 290 753 71 873 84 S1008 119 1107 -18"/>
+      <path d="M620 310 C725 289 750 73 872 88 S1008 116 1107 -17"/>
+      <path d="M621 310 C728 288 748 75 871 92 S1007 113 1107 -16"/>
+      <path d="M623 310 C730 287 746 77 870 95 S1006 109 1107 -15"/>
+      <path d="M625 310 C733 286 743 79 869 99 S1006 106 1107 -14"/>
+      <path d="M627 310 C735 285 741 81 868 103 S1005 103 1107 -13"/>
+      <path d="M628 310 C738 283 738 83 867 106 S1005 100 1107 -12"/>
+      <path d="M630 310 C740 282 736 85 866 110 S1004 97 1107 -11"/>
+      <path d="M632 310 C743 281 734 87 865 113 S1003 93 1107 -10"/>
+      <path d="M634 310 C745 280 731 89 864 117 S1003 90 1107 -9"/>
+      <path d="M636 310 C748 279 729 91 863 121 S1002 87 1107 -8"/>
+      <path d="M637 310 C750 278 726 94 861 124 S1002 84 1107 -8"/>
+      <path d="M639 310 C753 277 724 96 860 128 S1001 81 1107 -7"/>
+      <path d="M641 310 C755 276 721 98 859 132 S1001 78 1107 -6"/>
+      <path d="M643 310 C758 275 719 100 858 135 S1000 74 1107 -5"/>
+      <path d="M645 310 C760 274 717 102 857 139 S999 71 1107 -4"/>
+      <path d="M646 310 C763 272 714 104 856 142 S999 68 1107 -3"/>
+      <path d="M648 310 C765 271 712 106 855 146 S998 65 1107 -2"/>
+      <path d="M650 310 C768 270 709 108 854 150 S998 62 1107 -1"/>
+      <path d="M652 310 C770 269 707 110 853 153 S997 58 1107 0"/>
+      <path d="M653 310 C773 268 705 112 852 157 S996 55 1107 1"/>
+      <path d="M655 310 C775 267 702 114 851 161 S996 52 1107 2"/>
+      <path d="M657 310 C778 266 700 116 850 164 S995 49 1107 3"/>
+      <path d="M659 310 C780 265 697 118 849 168 S995 46 1107 4"/>
+      <path d="M661 310 C783 264 695 120 848 172 S994 42 1107 5"/>
+      <path d="M662 310 C785 263 692 122 847 175 S994 39 1107 6"/>
+      <path d="M664 310 C788 261 690 124 846 179 S993 36 1107 7"/>
+      <path d="M666 310 C790 260 688 126 845 182 S992 33 1107 8"/>
+      <path d="M668 310 C793 259 685 128 844 186 S992 30 1107 9"/>
+      <path d="M669 310 C795 258 683 130 843 190 S991 26 1107 10"/>
+      <path d="M671 310 C798 257 680 132 842 193 S991 23 1107 11"/>
+      <path d="M673 310 C800 256 678 134 841 197 S990 20 1107 12"/>
+    </g>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <text x="56" y="95" font-size="31" font-weight="700" fill="#f0f6ff">MO3</text>
+      <path d="M143 72v26" stroke="#6280a9" stroke-width="1.5"/>
+      <text x="163" y="94" font-size="25" fill="#b5c8e5">Software engineer</text>
+      <text x="52" y="184" font-size="77" font-weight="600" letter-spacing="-3.8" fill="#f4f8ff">I make <tspan fill="#96c6ff">software.</tspan></text>
+    </g>
+  </g>
+</svg>
