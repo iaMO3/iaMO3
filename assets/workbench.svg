@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">MO3 · I make software.</title>
+  <desc id="desc">An amber code key suspended over a dark circuit board beside the software engineer's signature.</desc>
+  <defs>
+    <linearGradient id="paper" x2="1" y2=".45" gradientUnits="objectBoundingBox">
+      <stop stop-color="#101923"/><stop offset=".55" stop-color="#131c26"/><stop offset="1" stop-color="#20242b"/>
+    </linearGradient>
+    <radialGradient id="lamp">
+      <stop stop-color="#bc7544" stop-opacity=".24"/><stop offset="1" stop-color="#bc7544" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".85" fill="#b5bfc9" opacity=".32"/>
+    </pattern>
+    <radialGradient id="grid-fade"><stop offset=".35" stop-color="white"/><stop offset="1" stop-color="black"/></radialGradient>
+    <mask id="grid-mask"><ellipse cx="925" cy="204" rx="355" ry="305" fill="url(#grid-fade)"/></mask>
+    <linearGradient id="board" x2="1" y2="1">
+      <stop stop-color="#657277"/><stop offset=".48" stop-color="#34454e"/><stop offset="1" stop-color="#29323a"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".95" y2=".75">
+      <stop stop-color="#8d9b9e"/><stop offset=".42" stop-color="#465863"/><stop offset=".64" stop-color="#9c8c76"/><stop offset="1" stop-color="#36404a"/>
+    </linearGradient>
+    <linearGradient id="key-top" x1="0" y1="1" x2="1" y2=".05">
+      <stop stop-color="#ffc17e"/><stop offset=".46" stop-color="#ffad6e"/><stop offset="1" stop-color="#ec895c"/>
+    </linearGradient>
+    <linearGradient id="key-wall" x2=".85" y2=".42">
+      <stop stop-color="#df9660"/><stop offset=".47" stop-color="#bd7049"/><stop offset=".56" stop-color="#ad5f40"/><stop offset="1" stop-color="#684337"/>
+    </linearGradient>
+    <filter id="shadow" x="-.4" y="-.8" width="1.8" height="2.6"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="sheet"><rect width="1200" height="420" rx="26"/></clipPath>
+    <path id="outline" d="M-147 -5 Q-156 -10 -145 -16 L-15 -81 Q-4 -87 9 -81 L146 -17 Q158 -11 146 -4 L14 65 Q2 71 -11 65Z"/>
+  </defs>
+  <g clip-path="url(#sheet)">
+    <rect width="1200" height="420" fill="url(#paper)"/>
+    <ellipse cx="934" cy="203" rx="320" ry="250" fill="url(#lamp)"/>
+    <rect x="530" width="670" height="420" fill="url(#dots)" mask="url(#grid-mask)"/>
+    <g transform="translate(913 231)" stroke-linejoin="round" stroke-linecap="round">
+      <!-- Etched tracks fan out from the socket on the board. -->
+      <g fill="none" stroke="#aa9784" opacity=".46" stroke-width="1.3">
+        <path d="M-73 72l-58 30h-47l-30 16h-21m143-51-59 30h-52l-20 11h-30m146-50-48 24h-43l-25-12h-28"/>
+        <path d="M78 72l52 27h46l26 13h42M94 63l55 28h44l20 11h20m-124-47 45 23h42l22-12h27"/>
+        <path d="M122 -3l48-25h39l26-14h16m-135 31 48-25h41l28-15m-365 47-52-27h-58l-20-11"/>
+      </g>
+      <g fill="#26313a" stroke="#a79b87">
+        <circle cx="-230" cy="118" r="3"/><circle cx="-248" cy="108" r="3"/><circle cx="-248" cy="65" r="3"/>
+        <circle cx="245" cy="112" r="3"/><circle cx="234" cy="102" r="3"/><circle cx="246" cy="66" r="3"/><circle cx="252" cy="-42" r="3"/>
+      </g>
+      <ellipse cy="61" rx="129" ry="43" fill="#070b10" opacity=".8" filter="url(#shadow)"/>
+      <g transform="translate(0 42)">
+        <use href="#outline" transform="translate(0 10)" fill="#111a21" stroke="#657078"/>
+        <use href="#outline" fill="url(#board)" stroke="url(#rim)" stroke-width="2"/>
+        <use href="#outline" transform="scale(.85)" fill="#202a30" stroke="#9c9281"/>
+        <use href="#outline" transform="scale(.69)" fill="#334148" stroke="#5f6968"/>
+        <g fill="#bdad91" stroke="#222a2e" stroke-width=".8">
+          <circle cx="-131" cy="-11" r="2.5"/><circle cx="131" cy="-11" r="2.5"/><circle cy="57" r="2.5"/>
+        </g>
+      </g>
+      <g fill="none" stroke="#ffc386" opacity=".66" stroke-dasharray="2 6">
+        <path d="M-109 -5v38m218-39v38M1 45v24"/>
+      </g>
+      <g transform="translate(0 -60)">
+        <path d="M-145 -12 L-130 -41 Q-129 -47 -121 -51 L-16 -105 Q-4 -111 9 -105 L119 -53 Q129 -49 132 -42 L147 -13 Q154 -3 142 4 L12 72 Q1 78 -12 71 L-141 6 Q-154 0 -145 -12Z" fill="url(#key-wall)" stroke="#f0a274" stroke-width="1.25"/>
+        <path d="M-123 -51 L-14 -106 Q-3 -111 9 -106 L122 -52 Q135 -45 122 -38 L12 19 Q2 24 -9 19 L-121 -37 Q-136 -44 -123 -51Z" fill="url(#key-top)" stroke="#ffd19b" stroke-width="2.2"/>
+        <path d="M-136 -5l124 62q13 6 24 0l127-65" fill="none" stroke="#ffbf87" opacity=".62"/>
+        <path d="M-140 1l128 64q13 6 24 0l128-67" fill="none" stroke="#452d27" opacity=".4"/>
+        <g transform="matrix(1 .485 -1 .505 0 -44)" fill="none" stroke="#543b31" stroke-width="7" stroke-linejoin="round">
+          <path d="M-19 -13l-13 13 13 13m24-32-10 38m24-32L32 0 19 13"/>
+        </g>
+      </g>
+    </g>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <rect x="62" y="59" width="49" height="5" rx="2.5" fill="#ffae79"/>
+      <text x="61" y="114" fill="#f4f1ec" font-size="29" font-weight="700" letter-spacing="1">MO3</text>
+      <text x="149" y="112" fill="#b3bdc7" font-size="22">Software engineer</text>
+      <text x="56" y="230" fill="#f6f3ed" font-size="106" letter-spacing="-6" font-weight="650">I make</text>
+      <text x="54" y="341" fill="#f6f3ed" font-size="121" letter-spacing="-7" font-weight="650">software<tspan fill="#ffae79">.</tspan></text>
+    </g>
+  </g>
+</svg>
